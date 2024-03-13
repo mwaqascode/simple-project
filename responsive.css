@@ -1,0 +1,74 @@
+@media only screen and (max-width: 1140px) {
+    .card-body {
+        width: 316px;
+        padding: 2px 20px 2px 20px;
+
+    }
+
+    .card-body h1 {
+        font-size: 29px;
+    }
+
+    .end-search{
+    display: none;
+   }
+    .manege {
+        text-align: center;
+        margin-top: 0;
+        position: relative;
+        color: black;
+    }
+    .manege .large {
+       
+        color: black;
+       
+    }
+    
+    .manege h1 {
+         color: black;
+     
+    }
+    
+    .manege p {
+        color: black;
+     
+    }
+    .stock{
+        text-align: center;
+    }
+   
+    .multi{
+        text-align: center;
+    }
+    .sizing {
+        margin-left: 0;
+        margin-top: 0;
+        width:100%;
+    
+    }
+    .mrgn {
+        margin-top: 0px;
+    }
+    
+    .mrgn-p {
+        margin-left:  0px;
+    }
+    
+    .mrgn-p1 {
+        margin-top: 0px;
+    }
+    
+    .mrgn-t {
+        margin-right:  0px;
+    }
+    
+    .mrgn-t1 {
+        margin-top: 0px;
+    }
+.web-app{
+    text-align: center;
+}
+.jumbotron h1{
+    font-size: 54px;
+}
+}

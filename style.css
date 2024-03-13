@@ -1,0 +1,425 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+
+
+:root {
+    --main-color: #0c8ce9;
+    ;
+    --second-color: black;
+    --third-color: green;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.container-fluid {
+    width: 100%;
+    padding-right: 0px;
+    padding-left: 0px;
+    margin-right: auto;
+    margin-left: auto
+}
+
+
+
+.icon {
+    width: 20px;
+
+}
+
+.end-search span {
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-style: italic;
+}
+.logo{
+    cursor: pointer;
+
+}
+
+.fa{
+    cursor: pointer;
+}
+.logo strong {
+    font-size: 36px;
+    font-weight: bold;
+    font-family: "Roboto", sans-serif;
+
+}
+
+.navbar {
+    padding-top: 0;
+    padding-bottom: 2.5rem;
+}
+
+.navbar-light .navbar-toggler {
+    border: none;
+}
+
+.navbar-toggler:focus {
+    box-shadow: none;
+}
+
+.menu-dark span {
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-style: italic;
+    padding: 19px;
+    margin-left: -14px;
+}
+
+.side-1 {
+    margin-left: 16%;
+}
+
+.jumbotron {
+    padding: 50px;
+    font-size: 36px;
+    font-family: "Roboto", sans-serif;
+    font-weight: bold;
+    padding: 100px 50px 100px 50px;
+
+}
+
+.jumbotron h1 {
+    font-size: 80px;
+}
+
+.jumbotron span {
+    color: var(--main-color);
+    font-weight: bold;
+}
+
+.banner {
+    position: relative;
+    z-index: -1;
+    text-align: center;
+    margin-top: -228px;
+}
+
+.banner img {
+    width: 98%;
+    height: 600px;
+}
+
+.provide span {
+    color: var(--third-color);
+
+    font-size: 21px;
+    font-family: "Roboto", sans-serif;
+    font-weight: bold;
+
+}
+
+.provide h1 {
+    color: var(--second-color);
+    font-size: 42px;
+    font-family: "Roboto", sans-serif;
+    font-weight: bold;
+}
+
+.service .service-btn {
+    color: var(--second-color);
+    font-weight: bold;
+    font-family: "Roboto", sans-serif;
+    padding: 15px 60px 15px 60px;
+
+}
+.service .service-btn:hover{
+    color: white;
+}
+.process span {
+    color: var(--third-color);
+    font-size: 21px;
+    font-family: "Roboto", sans-serif;
+}
+
+.process h1 {
+    color: var(--second-color);
+    font-weight: bold;
+    font-family: "Roboto", sans-serif;
+}
+
+.process-baner img {
+    width: 98%;
+    /* height: 600px; */
+
+}
+
+.manege {
+    margin-top: -416px;
+    position: relative;
+}
+.hvr{
+    cursor: pointer;
+}
+
+.hvr:hover{
+    background: #60ce60;
+    
+}
+.manege .large {
+    font-size: 150px;
+    color: white;
+    font-weight: bold;
+    font-family: "Roboto", sans-serif;
+}
+
+.manege h1 {
+    font-size: 33px;
+    color: white;
+    font-weight: bold;
+    font-family: "Roboto", sans-serif;
+}
+
+.manege p {
+    color: white;
+    font-size: 21px;
+    font-family: "Roboto", sans-serif;
+}
+
+.t-content .card-body {
+    width: 80%;
+    margin-top: -22%;
+    margin-left: 10%;
+    /* padding: 15px 20px 15px 20px; */
+
+
+
+}
+
+.card-img {
+    width: 100%;
+    border-radius: calc(.25rem - 1px);
+}
+
+.t-content .card {
+    background: 0 0;
+    border: none;
+}
+
+.t-content .right {
+    background-color: white;
+}
+
+.card-body h1 {
+    font-size: 32px;
+    font-family: "Roboto", sans-serif;
+    font-weight: bold;
+}
+
+.card-boddy p {
+    font-size: 21px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+}
+
+.pro-banner {
+    position: relative;
+}
+
+.stock span {
+    color: var(--third-color);
+    font-size: 21px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 600;
+}
+
+.stock h1 {
+    font-size: 35px;
+    font-family: "Roboto", sans-serif;
+    font-weight: bold;
+}
+
+.stock h2 {
+    font-size: 25px;
+    font-family: "Roboto", sans-serif;
+    /* font-weight: 600; */
+    margin-top: 35px;
+}
+
+.stock p {
+    font-size: 20px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+}
+
+.line {
+    height: 20px;
+    background: var(--main-color);
+    width: 71%;
+    float: inline-end;
+
+}
+
+.multi {
+    margin-top: 60px;
+}
+
+.multi .new {
+    color: var(--third-color);
+    font-size: 25px;
+    font-family: "Roboto", sans-serif;
+    font-weight: bold;
+}
+
+.multi h1 {
+    font-size: 35px;
+    font-family: "Roboto", sans-serif;
+    font-weight: bold;
+}
+
+.multi h3 {
+    font-size: 25px;
+    font-family: "Roboto", sans-serif;
+    font-weight: bold;
+}
+
+.multi p {
+    font-size: 20px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+}
+
+.multi .btn {
+    padding: 12px 55px 12px 55px;
+}
+
+.web-app {
+    margin-top: 130px;
+}
+
+.web-app p {
+    color: var(--third-color);
+    font-size: 20px;
+    font-family: "Roboto", sans-serif;
+    font-weight: bold;
+}
+
+.web-app h1 {
+    font-size: 50px;
+    font-family: "Roboto", sans-serif;
+    font-weight: bold;
+}
+
+.se-app strong {
+    font-size: 50px;
+    font-family: "Roboto", sans-serif;
+    font-weight: bold;
+    padding: 10px 26px 13px 12px;
+}
+
+.se-app h3 {
+    color: var(--main-color);
+    font-size: 20px;
+    font-family: "Roboto", sans-serif;
+    font-weight: bold;
+}
+
+.se-app p {
+    font-size: 20px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+}
+
+.line1 {
+    height: 20px;
+    background: var(--third-color);
+    width: 60%;
+    float: inline-start;
+
+}
+
+.us p {
+    font-size: 20px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    color: var(--third-color);
+}
+
+.us h1 {
+    font-size: 50px;
+    font-family: "Roboto", sans-serif;
+    font-weight: bold;
+}
+
+.fotr {
+    position: relative;
+    margin-top: -381px;
+}
+
+.end-f {
+    background: var(--main-color);
+    color: white;
+    padding: 92px;
+    text-align: center;
+
+}
+
+.end-f p {
+    font-size: 20px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+}
+
+.end-f span {
+    font-size: 20px;
+    font-family: "Roboto", sans-serif;
+    font-weight: bold;
+}
+
+.arrow {
+    width: 55px;
+    height: 52px;
+    background: black;
+    color: white;
+    border: 2px solid white;
+    padding: 1px 0px 0px 9px;
+    font-size: 31px;
+    float: inline-end;
+}
+
+.go {
+    text-align: center;
+}
+
+.go h3 {
+    font-size: 20px;
+    font-family: "Roboto", sans-serif;
+    font-weight: bold;
+}
+
+.go p {
+    font-size: 20px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+}
+
+.sizing {
+    margin-left: -323px;
+    margin-top: -187px;
+    width: 255%;
+
+}
+
+.mrgn {
+    margin-top: 50px;
+}
+
+.mrgn-p {
+    margin-left: -201px;
+}
+
+.mrgn-p1 {
+    margin-top: 106px;
+}
+
+.mrgn-t {
+    margin-right: -165px;
+}
+
+.mrgn-t1 {
+    margin-top: 82px;
+}
